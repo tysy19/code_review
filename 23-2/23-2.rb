@@ -5,8 +5,7 @@ def variable_defined(variable)
     puts "Переменная #{variable} не определена."
   end
 end
-
-а = "some_string"
-
+а = 1
+b
 variable_defined(a)
 variable_defined(b)
